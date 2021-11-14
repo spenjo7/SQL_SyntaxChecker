@@ -1,0 +1,78 @@
+body {
+	background-color: lightblue;
+}
+
+section {
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+	display: inline-flex;
+	flex-flow: row;
+	column-gap: 1%;
+}
+
+
+label {
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+textarea{
+	padding: 5px;
+	padding-left: 5px;
+}
+
+.cell{
+	background-color: white;
+
+}
+
+#cell_output{
+	padding: 5px;
+	padding-left: 5px;
+}
+
+/*
+.whitespace{
+	border-bottom: 2px lightgray solid;
+	margin: 1px;
+}
+*/
+
+.tabspace{
+	border: 1px solid lightgray;
+	margin: 1px;
+}
+
+.linebreak{
+	/*might make line break color optional*/
+	/*border-left: 2px solid grey;*/
+	margin-left:  5px;
+}
+
+.numbers{
+	color: green;
+	font-weight: bold;
+}
+
+
+.letters{
+	color: black;
+}
+
+.brackets{
+	color:  gold;
+	 font-weight: bold;
+}
+
+.singlequotes{
+	color:  purple;
+}
+
+.danger{
+	color: red;
+}
+
+.matched{
+	color:  blue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="styles.css?v=1.0">
+	<style></style>
+</head>
+
+<body>
+	<section>
+		<div id="cell_input">
+	<label for="textarea">Enter SQL to check Syntax:</label><br>
+	<textarea rows="20" cols="50" id="textarea" name="textarea">select
+	count(*),
+	some_column
+from some_table
+where pk1 = 123
+	and other_index is not null
+	and some_string = 'abc'
+	and some_badlyquoted_string = "def"
+group by some_column
+order by some_column
+</textarea>
+		</div>
+		<div id="cell_output" class="cell">
+			jkl
+		</div>
+	</section>
+	<script src="wordlist.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
