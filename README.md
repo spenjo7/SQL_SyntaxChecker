@@ -1,10 +1,13 @@
 # SQL_SyntaxChecker
+
+## Purpose:
 This project allows real-time checking of SQL Syntax.
 
 This syntax checking includes Coloration of numbers, quotation marks, brackets, and Reserved Words as well as capitilization of Reserved Words.  
 
-- Currently the Reserved Words are as Follows:
-
+### Currently the Reserved Words are as Follows:
+<details>
+  <summary>(Click to expand)</summary>
 	"ABORT",	"ACCELERATED",	"ADD",	"AFTER",	"ALL",	"ALTER",	"AND",	"ANSI-PADDING",	"ANY",	"AS",
 	"ASC",	"ATOMIC",	"AVG",	"BEFORE",	"BEGIN",	"BETWEEN",	"BORDER",	"BY",	"CALL",	"CACHED_PROCEDURES",
 	"CASCADE",	"CASE",	"CAST",	"CHECK",	"CLOSE",	"COALESCE",	"COLLATE",	"COLUMN",	"COMMIT",	"COMMITTED",
@@ -51,4 +54,4 @@ This syntax checking includes Coloration of numbers, quotation marks, brackets, 
 	"TRANSLATION",	"TRIM",	"TRUE",	"TRY_CAST",	"UNION",	"UNIQUE",	"UNKNOWN",	"UPDATE",	"UPPER",	"USAGE",
 	"USER",	"USING",	"VALUE",	"VALUES",	"VARCHAR",	"VARYING",	"VIEW",	"WHEN",	"WHENEVER",	"WHERE",
 	"WITH",	"WORK",	"WRITE",	"YEAR",	"ZONE"
-]
+</details>
